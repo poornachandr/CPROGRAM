@@ -8,8 +8,11 @@ int main()
 	for(i=0;i<n;i++)
 	{
 		scanf("%d",&a[i]);
+	}
+	for(i=0;i<n;i++)
+	{
 	printf("\n the number is %d ",a[i]);
 	printf("\n the index value is %d",i);
-  }
+        }
 	return 0;
 }
