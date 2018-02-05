@@ -1,23 +1,23 @@
 #include<stdio.h>
 int main()
 {
- int a[10],i,n,m;
+ int a[10],i,num,max;
  printf("\n enter the number");
- scanf("%d",&n);
- for(i=0;i<n;i++)
+ scanf("%d",&num);
+ for(i=0;i<num;i++)
  {
    scanf("%d",&a[i]);
  }
- for(i=0;i<n;i++)
+ for(i=0;i<num;i++)
  {
   printf("\n%d",a[i]);
  }
- a[i]=m;
- for(i=0;i<n;i++)
+ a[i]=max;
+ for(i=0;i<num;i++)
  {
-  if(m<a[i])
-  m=a[i];
+  if(max<a[i])
+  max=a[i];
   }
-  printf("\n maximum  number is %d",m);
+  printf("\n maximum  number is %d",max);
   return 0;
 }
