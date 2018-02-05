@@ -2,7 +2,7 @@
 void main()
 {
  int i,count=0;
- char a[20];
+ char a[20]="Narniya part 2.watched 2 times"
  for(i=0;a[i]!=0;i++)
  {
   if(a[i]>='0'||a[i]<='9')
