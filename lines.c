@@ -5,7 +5,7 @@ void main()
  char a[30]="love to code.love to dance.";
  for(i=0;a[i]!='\0';i++)
  {
-  if((a[i]!='.'))
+  if((a[i]=='.'))
  {
   count++;
  }
