@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
- int a[10],i,n,max,min;
+ int a[10],i,n,ma,s;
  printf("\n enter the number");
  scanf("%d",&n);
  for(i=0;i<n;i++)
@@ -12,13 +12,13 @@ int main()
  {
   printf("\n%d",a[i]);
  }
- a[i]=max;
+ a[i]=ma;
  for(i=0;i<n;i++)
  {
-  if(max<a[i])
-  max=a[i];
+  if(ma<a[i])
+  ma=a[i];
   }
-  printf("\n maximum  number is %d",max);
+  printf("\n maximum  number is %d",ma);
   s=a[0];
  for(i=0;i<n;i++)
  {
