@@ -20,7 +20,6 @@ int main()
   }
  }
 }
-i=9n=10/2
 printf("the median element is %d",
 return 0;
 }
