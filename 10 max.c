@@ -18,6 +18,6 @@ int main()
   if(large<a[i])
   large=a[i];
   }
-  printf("\n maximum  number is %d",m);
+  printf("\n maximum  number is %d",large);
   return 0;
 }
