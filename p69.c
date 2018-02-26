@@ -3,7 +3,7 @@ int main()
 {
  int a,b,c;
  printf("\n enter two numbers");
- scanf("%d",&a,&b);
+ scanf("%d%d",&a,&b);
  if(a>b)
  {
   c=a-b;
@@ -14,7 +14,7 @@ int main()
   c=b-a;
   printf("\n the difference is %d",c);
   }
-  if(c%2==0);
+  if(c%2==0)
   {
    printf("\n even");
    }
